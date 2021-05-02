@@ -1,0 +1,20 @@
+.skill{
+    padding: 7px 9px;
+    margin: 10px;
+    background-color: #F9004D;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.skill:hover{
+    background-color: #37628c;
+    cursor: pointer;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.h2{
+    border-bottom: 20px solid red;
+}
