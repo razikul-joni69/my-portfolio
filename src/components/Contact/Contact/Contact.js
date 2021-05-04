@@ -3,7 +3,7 @@ import NavigationBar from "../../Shared/NavigationBar/NavigationBar";
 
 const Contact = () => {
     return (
-        <>
+        <div className="container">
             <NavigationBar />
             <div className="row mt-5">
                 <div className="col-md-6">
@@ -64,7 +64,7 @@ const Contact = () => {
                     ></iframe>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

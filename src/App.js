@@ -8,7 +8,7 @@ import Project from "./components/Projects/Project/Project";
 function App() {
     return (
         <div className="App">
-            <header className="container">
+            <header className="">
                 <Router>
                     <Switch>
                         <Route exact path="/">

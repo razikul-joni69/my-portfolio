@@ -6,7 +6,7 @@ import haatBazar from '../../../images/haatBazar.png'
 
 const Project = () => {
     return (
-        <div>
+        <div className="container">
             <NavigationBar />
             <h1 className="mt-5 mb-5 text-center">My recent Works</h1>
             <div className="row  text-dark">
