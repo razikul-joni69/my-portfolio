@@ -1,0 +1,10 @@
+.box-container {
+    border: 1px solid red;
+}
+.box-container:hover {
+    transition: ease;
+    background-color: red;
+}
+/* .main-content{
+
+} */

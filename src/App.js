@@ -2,9 +2,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Blog from "./components/Blog/Blog/Blog";
-import Contact from "./components/Contact/Contact/Contact";
+import Contact from "./components/Contact/Contact";
 import Home from "./components/Home/Home/Home";
-import Project from "./components/Projects/Project/Project";
+import Projects from "./components/Projects/Projects";
+
+
 function App() {
     return (
         <div className="App">
@@ -18,7 +20,7 @@ function App() {
                             <Home />
                         </Route>
                         <Route path="/projects">
-                            <Project />
+                            <Projects />
                         </Route>
                         <Route path="/blog">
                             <Blog />
