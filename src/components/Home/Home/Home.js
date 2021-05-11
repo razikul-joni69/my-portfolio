@@ -4,6 +4,7 @@ import MyProjects from "../../Projects/MyProjects/MyProjects";
 import Footer from "../../Shared/Footer/Footer";
 import NavigationBar from "../../Shared/NavigationBar/NavigationBar";
 import HeroSection from "../HeroSection/HeroSection";
+import SkillProgress from "../SkillProgress/SkillProgress";
 import Skills from "../Skills/Skills";
 import WhyMe from "../WhyMe/WhyMe";
 import Work from "../Work/Work";
@@ -14,6 +15,7 @@ const Home = () => {
         <div>
             <NavigationBar />
             <HeroSection />
+            <SkillProgress/>
             <Work />
             <Skills />
             <WhyMe/>
