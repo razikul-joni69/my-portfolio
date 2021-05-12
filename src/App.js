@@ -6,7 +6,6 @@ import Contact from "./components/Contact/Contact";
 import Home from "./components/Home/Home/Home";
 import Projects from "./components/Projects/Projects";
 
-
 function App() {
     return (
         <div className="App">
@@ -26,7 +25,7 @@ function App() {
                             <Blog />
                         </Route>
                         <Route path="/contact">
-                            <Contact/>
+                            <Contact />
                         </Route>
                     </Switch>
                 </Router>

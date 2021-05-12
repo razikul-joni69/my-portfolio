@@ -2,7 +2,10 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import haatBazar from "../../../images/haatBazar.png";
 import motoFix from "../../../images/motofix.png";
-
+import {
+    faExternalLinkAlt,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const MyProjects = () => {
     return (
         <div className="container">
@@ -26,15 +29,15 @@ const MyProjects = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href="https://motofix-d0a7a.web.app"
-                                className="btn btn-warning"
+                                className="btn btn-info"
                             >
-                                Live Site
+                               <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon> Live Site
                             </a>
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href="sdf"
-                                className="btn btn-warning ml-2"
+                                className="btn btn-info ml-2"
                             >
                                 Source Code
                             </a>
@@ -59,15 +62,15 @@ const MyProjects = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href="https://motofix-d0a7a.web.app"
-                                className="btn btn-warning"
+                                className="btn btn-info"
                             >
-                                Live Site
+                               <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon> Live Site
                             </a>
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href="htt"
-                                className="btn btn-warning ml-2"
+                                className="btn btn-info ml-2"
                             >
                                 Source Code
                             </a>
@@ -92,15 +95,15 @@ const MyProjects = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href="https://motofix-d0a7a.web.app"
-                                className="btn btn-warning"
+                                className="btn btn-info"
                             >
-                                Live Site
+                               <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon> Live Site
                             </a>
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href="htt"
-                                className="btn btn-warning ml-2"
+                                className="btn btn-info ml-2"
                             >
                                 Source Code
                             </a>
@@ -125,15 +128,15 @@ const MyProjects = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href="https://motofix-d0a7a.web.app"
-                                className="btn btn-warning"
+                                className="btn btn-info"
                             >
-                                Live Site
+                               <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon> Live Site
                             </a>
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href="htt"
-                                className="btn btn-warning ml-2"
+                                className="btn btn-info ml-2"
                             >
                                 Source Code
                             </a>

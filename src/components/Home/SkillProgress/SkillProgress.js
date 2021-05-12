@@ -9,102 +9,103 @@ const SkillProgress = () => {
                     <h5>Html</h5>
                     <ProgressBar
                         animated
-                        now={45}
-                        variant="warning"
-                        label={"50%"}
+                        now={95}
+                        variant="primary"
+                        label={"95%"}
                     />
                     <h5>Css</h5>
                     <ProgressBar
                         animated
-                        now={45}
-                        variant="warning"
-                        label={"50%"}
+                        now={90}
+                        variant="secondary"
+                        label={"90%"}
                     />
                     <h5>JavaScript</h5>
                     <ProgressBar
                         animated
-                        now={45}
+                        now={80}
                         variant="danger"
-                        label={"50%"}
+                        label={"80%"}
                     />
                     <h5>React Js</h5>
                     <ProgressBar
                         animated
-                        now={45}
-                        variant="warning"
-                        label={"50%"}
+                        now={75}
+                        variant="muted"
+                        label={"75%"}
                     />
                     <h5>React-Bootstrap / Bootstrap</h5>
-                    <ProgressBar now={45}>
-                        <ProgressBar
-                            striped
-                            variant="success"
-                            now={70}
-                            label={"70%"}
-                            key={1}
-                        />
-                        <ProgressBar
-                            variant="warning"
-                            now={90}
-                            label={"90%"}
-                            key={2}
-                        />
-                    </ProgressBar>
+                    <ProgressBar
+                        animated
+                        now={80}
+                        variant="dark"
+                        label={"80%"}
+                    />
                     <h5>Node Js</h5>
                     <ProgressBar
                         animated
-                        now={45}
+                        now={50}
                         variant="info"
                         label={"50%"}
                     />
                     <h5>Express Js</h5>
                     <ProgressBar
                         animated
-                        now={45}
+                        now={65}
                         variant="success"
-                        label={"50%"}
+                        label={"65%"}
                     />
                     <h5>MongoDB</h5>
                     <ProgressBar
                         animated
-                        now={45}
+                        now={60}
                         variant="warning"
-                        label={"50%"}
+                        label={"60%"}
                     />
                 </div>
                 <div className="col-md-6">
                     <div className="row">
-                        <div className="col-sm-6">
-                            <CircleProgress
-                                percentage={70}
-                                strokeWidth={8}
-                                secondaryColor="#f0f0f0"
-                            />
-                            <h5 className="pl-3">Communication</h5>
+                        <div className="col-sm-6 d-flex justify-content-center">
+                            <div>
+                                <CircleProgress
+                                    percentage={70}
+                                    strokeWidth={8}
+                                    secondaryColor="#f0f0f0"
+                                />
+                                <h5 className="text-center">Communication</h5>
+                            </div>
                         </div>
-                        <div className="col-sm-6">
-                            <CircleProgress
-                                percentage={70}
-                                strokeWidth={8}
-                                secondaryColor="#f0f0f0"
-                            />
-                            <h5>Team Work</h5>
+                        <div className="col-sm-6 d-flex justify-content-center">
+                            <div>
+                                <CircleProgress
+                                    percentage={80}
+                                    strokeWidth={8}
+                                    secondaryColor="#f0f0f0"
+                                />
+                                <h5 className="text-center">Team Work</h5>
+                            </div>
                         </div>
-                        <div className="col-sm-6">
-                            <CircleProgress
-                                percentage={70}
-                                strokeWidth={8}
-                                secondaryColor="#f0f0f0"
-                            />
-                            <h5>Project Management</h5>
+                        <div className="col-sm-6 d-flex justify-content-center">
+                            <div>
+                                <CircleProgress
+                                    percentage={75}
+                                    strokeWidth={8}
+                                    secondaryColor="#f0f0f0"
+                                />
+                                <h5 className="text-center">
+                                    Project Management
+                                </h5>
+                            </div>
                         </div>
-                        <div className="col-sm-6">
-                            <CircleProgress
-                                percentage={70}
-                                strokeWidth={8}
-                                secondaryColor="#f0f0f0"
-                            />
-                            <h5>Creativity</h5>
+                        <div className="col-sm-6 d-flex justify-content-center">
+                            <div>
+                                <CircleProgress
+                                    percentage={70}
+                                    strokeWidth={8}
+                                    secondaryColor="#f0f0f0"
+                                />
+                                <h5 className="text-center">Creativity</h5>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import SkillProgress from "../SkillProgress/SkillProgress";
 import "./Skill.css";
 
 const Skills = () => {
@@ -42,6 +43,7 @@ const Skills = () => {
                     </ul>
                 </div>
             </div>
+            <SkillProgress/>
         </div>
     );
 };
